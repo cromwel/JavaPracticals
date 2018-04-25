@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body ng-app="src" ng-controller="sampleController">
+<p>
+    First Name:
+    <input type="text" ng-model="first"/>
+</p>
+<p>
+    Last Name:
+    <input type="text" ng-model="last"/>
+</p>
+<p>
+    Full Name: {{combineNames()}}
+</p>
+</body>
+<script src="sampleController.js"></script>
+</html>
